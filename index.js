@@ -1,5 +1,7 @@
 'use strict';
 
+require ('dotenv').config();
 const server = require('./lib/server.js');
 
-server.start(8080);
+
+server.start(process.env.PORT);
