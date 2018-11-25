@@ -2,9 +2,9 @@
 <ul>
   <% items.forEach(item => { %>
     <li>
-      <form action="/category" method="post" class="disabled">
+      <form action="/list" method="post" class="disabled">
         <input type="text" name="name" value="<%= item.name %>" disabled="true" />
-        <a href="#" class="formToggle">(e)</a>
+        <a href="#" class="formToggle">(edit)</a>
         <input type="hidden" name="_id" value="<%= item._id %>" />
 
         <button name="_method" value="put">Save</button>
