@@ -1,24 +1,27 @@
 {
-  "categories":[
+  "categories": [
     {
-    "name":"aid",
-    "display name":"Aid",
-    "description":"health items",
-    "_id":3
-  },
-  {
-    "name":"ammo",
-    "display name":"Ammo",
-    "description":"ammo items",
-    "_id":4
-  },
-  {
-    "name":"apparel",
-    "display name":"Apparel",
-    "description":"clothing and armor items",
-    "_id":5
-  }
-],
+      "name": "aid",
+      "display name": "Aid",
+      "description": "health items",
+      "_id": 3,
+      "apiId": "v1"
+    },
+    {
+      "name": "ammo",
+      "display name": "Ammo",
+      "description": "ammo items",
+      "apiId": "v1",
+      "_id": 4
+    },
+    {
+      "name": "apparel",
+      "display name": "Apparel",
+      "description": "apparel",
+      "apiId": "v1",
+      "_id": 5
+    }
+  ],
   "products": [
     {
       "_id": 1,
@@ -35,82 +38,82 @@
       "description": "food, +25 Energy Resistance for 1 hr"
     },
     {
-      "category":"aid",
-      "name":"grillrad",
-      "display_name":"Grilled Radstag",
+      "category": "aid",
+      "name": "grillrad",
+      "display_name": "Grilled Radstag",
       "description": "food, +50% Carry Weight for 1 hr"
     },
     {
-      "category":"aid",
-      "name":"cookSoftShell",
-      "display_name":"Cooked Softshell Mirelurk Meat",
-      "description":"+15 AP for 1 hour"
+      "category": "aid",
+      "name": "cookSoftShell",
+      "display_name": "Cooked Softshell Mirelurk Meat",
+      "description": "+15 AP for 1 hour"
     },
     {
-      "category":"aid",
-      "name":"mireOme",
-      "display_name":"Mirelurk Egg Omelette",
-      "description":"+50 AP instantly"
+      "category": "aid",
+      "name": "mireOme",
+      "display_name": "Mirelurk Egg Omelette",
+      "description": "+50 AP instantly"
     },
     {
-      "category":"aid",
-      "name":"moleratChunk",
-      "display_name":"Mole Rat Chunks",
-      "description":"+5 AP for 15 min"
+      "category": "aid",
+      "name": "moleratChunk",
+      "display_name": "Mole Rat Chunks",
+      "description": "+5 AP for 15 min"
     },
     {
-      "category":"aid",
-      "name":"muthoundChop",
-      "display_name":"Mutant Hound Chops",
-      "description":"-50 Rads"
+      "category": "aid",
+      "name": "muthoundChop",
+      "display_name": "Mutant Hound Chops",
+      "description": "-50 Rads"
     },
     {
-      "category":"aid",
-      "name":"radOme",
-      "display_name":"Radscorpion Egg Omelette",
-      "description":"cures all addictions"
+      "category": "aid",
+      "name": "radOme",
+      "display_name": "Radscorpion Egg Omelette",
+      "description": "cures all addictions"
     },
     {
-      "category":"aid",
-      "name":"roastMire",
-      "display_name":"Roasted Mirelurk Meat",
-      "description":"+10 AP for 30 min"
+      "category": "aid",
+      "name": "roastMire",
+      "display_name": "Roasted Mirelurk Meat",
+      "description": "+10 AP for 30 min"
     },
     {
-      "category":"aid",
-      "name":"vegSoup",
-      "display_name":"Vegetable Soup",
-      "description":"+25 rad resist for 1 hour"
+      "category": "aid",
+      "name": "vegSoup",
+      "display_name": "Vegetable Soup",
+      "description": "+25 rad resist for 1 hour"
     },
     {
-      "category":"aid",
-      "name":"bloodSteak",
-      "display_name":"Bloodbug Steak",
-      "description":"+15 Max Health for 1 hour"
+      "category": "aid",
+      "name": "bloodSteak",
+      "display_name": "Bloodbug Steak",
+      "description": "+15 Max Health for 1 hour"
     },
     {
-      "category":"ammo",
-      "name":"mini nuke",
+      "category": "ammo",
+      "name": "mini nuke",
       "display_name": "Mini Nuke",
       "description": "utter devastation"
     },
     {
-      "category":"ammo",
-      "name":"10mm",
-      "display_name":"10mm round",
-      "description":"10mm round"
+      "category": "ammo",
+      "name": "10mm",
+      "display_name": "10mm round",
+      "description": "10mm round"
     },
     {
-      "category":"apparel",
-      "name":"spike armor",
-      "display_name":"Spike Armor",
-      "description":"pretty decent inclusive armor package"
+      "category": "apparel",
+      "name": "spike armor",
+      "display_name": "Spike Armor",
+      "description": "pretty decent inclusive armor package"
     },
     {
-      "category":"apparel",
-      "name":"v111 jumpsuit",
-      "display":"Vault 111 Jumpsuit",
-      "description":"+2 INT, no armor value"
+      "category": "apparel",
+      "name": "v111 jumpsuit",
+      "display": "Vault 111 Jumpsuit",
+      "description": "+2 INT, no armor value"
     }
   ]
 }
