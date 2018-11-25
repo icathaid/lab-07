@@ -11,4 +11,3 @@ delete  '/list', deleteCategory
 put '/list', editCategory
 
 Each route calls a function with an airty of 2, a request and a response.  
-
