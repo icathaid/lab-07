@@ -1,4 +1,4 @@
-Travis Badge Here
+[![Build Status](https://www.travis-ci.com/icathaid/lab-07.svg?branch=master)](https://www.travis-ci.com/icathaid/lab-07)
 
 Lab - 07 - CRUD
 
